@@ -1,0 +1,15 @@
+{
+    "name": "Racket",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"evzen-wybitul.magic-racket"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "bash",
+				"magicRacket.languageServer.command": "xvfb-racket"
+			}
+		}
+	}
+}
